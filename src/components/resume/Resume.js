@@ -24,8 +24,10 @@ const Resume = () => {
             setSkillData(false) &
             setExperienceData(false) &
             setAchievementsData(false)
-          } 
-          className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none border-none">
+            } 
+            className= {`${
+            educationData ? "border-designColor rounded-lg" : "border-transparent"
+            }  w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none`} >
             Education
           </li>
           <li 
@@ -34,8 +36,10 @@ const Resume = () => {
               setSkillData(true) &
               setExperienceData(false) &
               setAchievementsData(false)
-          } 
-          className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none border-none">
+            } 
+          className= {`${
+            skillData ? "border-designColor rounded-lg" : "border-transparent"
+            }  w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none`}>
             Skills
           </li>
           <li onClick={() => 
@@ -43,8 +47,10 @@ const Resume = () => {
               setSkillData(false) &
               setExperienceData(true) &
               setAchievementsData(false)
-          } 
-          className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none border-none">
+            } 
+          className= {`${
+            experienceData ? "border-designColor rounded-lg" : "border-transparent"
+            }  w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rpunded-none`}>
             Experience
           </li>
           <li 
@@ -53,8 +59,10 @@ const Resume = () => {
               setSkillData(false) &
               setExperienceData(false) &
               setAchievementsData(true)
-          } 
-          className="w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none border-none">
+            } 
+          className= {`${
+            achievementsData ? "border-designColor rounded-lg" : "border-transparent"
+            }  w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none`}>
             Achievements
           </li>
         </ul>
@@ -65,6 +73,12 @@ const Resume = () => {
       }
       {
         skillData && <Skills />
+      }
+      {
+        experienceData && <Experience />
+      }
+      {
+        achievementsData && <Achievements />
       }
       {/* <Education /> */}
       {/* <Skills /> */}
