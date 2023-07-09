@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <motion.div 
       initial={{opacity:0}} 
-      animate={{opacity:1,transition:{duration:.5}}} 
+      animate={{opacity:1, transition:{duration:0.5}}} 
       className="w-full flex gap-20"
       >
       <div>
