@@ -14,8 +14,10 @@ const Contact = () => {
         />
       </div>
       <div className="w-full">
-        <div className="">
-            <div></div>
+        <div className="w-full h-[500px] flex flex-col justify-between">
+            <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+
+            </div>
             <div></div>
         </div>
       </div>
