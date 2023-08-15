@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useRef } from "react";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -47,6 +49,21 @@ const Contact = () => {
     }
   };
 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xkv64w4', 'template_jt9d9er', form.current, 'dFr9-HmzJtUTOZH8T')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+    };
+
+
   return (
     <section
       id="contacts"
@@ -62,7 +79,11 @@ const Contact = () => {
             className="w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] 
             flex flex-col gap-8 p-6 lgl:p-8 rounded-lg shadow-shadowOne"
           >
-            <form className="w-full flex flex-col gap-6 py-2" >
+            <form
+              className="w-full flex flex-col gap-6 py-2"
+              ref={form}
+              onSubmit={sendEmail}
+            >
               {errMsg && (
                 <p
                   className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] 
@@ -160,8 +181,7 @@ const Contact = () => {
                   name={message}
                   value={message}
                   className={`${
-                    errMsg === "Message is required!" &&
-                    "outline-designColor"
+                    errMsg === "Message is required!" && "outline-designColor"
                   } "w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] 
                   text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none 
                   focus-visible:border-b-transparent duration-300 resize-none"`}

@@ -7,7 +7,7 @@ import FooterBottom from './components/footer/FooterBottom';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
 import Resume from './components/resume/Resume';
-import Map from './components/map/Map'
+import Map from './components/map/Map';
 
 function App() {
   return(
