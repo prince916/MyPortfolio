@@ -9,14 +9,14 @@ const Skills = () => {
       animate={{opacity:1,transition:{duration:.5}}} 
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20">
       <div className='w-full lgl:w-1/2'>
-        <div className="py-10 font-titleFont">
+        <div className="py-6 lgl:py-12 font-titleFont">
           <p className="text-sm uppercase text-designColor tracking-[4px]">
             Features
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Design Skill</h2>
         </div>
         <div
-          className="mt-14 w-full h-[1000px] border-l-[6px] border-black
+          className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black
           border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
@@ -40,14 +40,14 @@ const Skills = () => {
         </div>
       </div>
       <div className='w-full lgl:w-1/2'>
-        <div className="py-12 font-titleFont">
+        <div className="py-6 lgl:py-12 font-titleFont">
           <p className="text-sm uppercase text-designColor tracking-[4px]">
             Features
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
         </div>
         <div
-          className="mt-14 w-full h-[1000px] border-l-[6px] border-black
+          className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-black
             border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
