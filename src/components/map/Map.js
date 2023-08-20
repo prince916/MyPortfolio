@@ -7,7 +7,7 @@ const Map = () => {
       id="map"
       className="w-full pt-10 pb-20 flex items-center border-b-[1px] font-titleFont border-b-black"
     >
-      <div className="w-full flex flex-col gap-8">
+      <div className="w-full flex flex-col lgl:flex-row gap-8">
         <div className="flex justify-center items-center text-center">
           <Title title="Address" des="My Location in google map" />
         </div>
@@ -18,7 +18,8 @@ const Map = () => {
         style={{border:0}}
         allowFullScreen="" 
         loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
         
       </div>
     </section>

@@ -17,7 +17,7 @@ const Card = ({ title, des, icon }) => {
             <span className="text-5xl text-designColor">{icon}</span>
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-2xl font-titleFont font-bold text-gray-300">
+            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
               {title}
             </h2>
             <div className="flex flex-col gap-8">
