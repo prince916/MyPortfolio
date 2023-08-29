@@ -22,8 +22,8 @@ export const navLinksdata = [
     },
     {
         _id: 1005,
-        title: "Map",
-        link: "map",
+        title: "Certificates",
+        link: "certificates",
     },
     {
         _id: 1006,
