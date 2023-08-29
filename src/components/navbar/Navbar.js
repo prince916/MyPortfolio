@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
@@ -91,21 +91,36 @@ const Navbar = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover:-y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <FaFacebookF />
+                    <a href="https://www.facebook.com/login/">
+                      <FaFacebookF />
+                    </a>
                   </span>
                   <span
                     className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <FaTwitter />
+                    <a href="https://twitter.com/Prince_Kumar_19">
+                      <FaTwitter />
+                    </a>
                   </span>
                   <span
                     className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/">
+                      <FaLinkedin />
+                    </a>
+                  </span>
+                  <span
+                    className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
+                      items-center justify-center rounded-md shadow-shadowOne hover:
+                      hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
+                  >
+                    <a href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw">
+                      <FaYoutube />
+                    </a>
                   </span>
                 </div>
               </div>
