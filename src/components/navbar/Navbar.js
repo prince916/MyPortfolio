@@ -91,7 +91,7 @@ const Navbar = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover:-y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <a href="https://www.facebook.com/login/">
+                    <a href="https://www.facebook.com/login/" target='_blank'>
                       <FaFacebookF />
                     </a>
                   </span>
@@ -100,7 +100,7 @@ const Navbar = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <a href="https://twitter.com/Prince_Kumar_19">
+                    <a href="https://twitter.com/Prince_Kumar_19" target='_blank'>
                       <FaTwitter />
                     </a>
                   </span>
@@ -109,7 +109,7 @@ const Navbar = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <a href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/">
+                    <a href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/" target='_blank'>
                       <FaLinkedin />
                     </a>
                   </span>
@@ -118,7 +118,7 @@ const Navbar = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
                   >
-                    <a href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw">
+                    <a href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw" target='_blank'>
                       <FaYoutube />
                     </a>
                   </span>
