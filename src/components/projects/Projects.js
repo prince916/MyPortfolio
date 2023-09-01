@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { Myself, SnakeGame } from "../../assets/index";
+import { Myself, SnakeGame, project2, project3 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -32,13 +32,14 @@ const Projects = () => {
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={Myself}
+          src={project3}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={Myself}
+          title="FACE DETECTION BRAIN"
+          des="This App detects faces in any image or picture.
+          You can find it working if you paste any link of image and click detect then it app
+          will form a RECTANGLE BOX around the face according to its size."
+          src={project2}
         />
         <ProjectsCard
           title="E-commerce Website"
@@ -48,8 +49,9 @@ const Projects = () => {
         />
         <ProjectsCard
           title="SnakeGame"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="This is a Simple Snake Game which you have already played in your childhood days.
+          But this is a little bit updated version. Your should definitely check it out.
+          You will enjoy it."
           src={SnakeGame}
         />
       </div>
