@@ -25,7 +25,7 @@ const Projects = () => {
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+              Explicabo quibusdam voluptate sapiente voluptatibus quidem!"
           src={Myself}
         />
         <ProjectsCard
