@@ -7,7 +7,6 @@ import FooterBottom from './components/footer/FooterBottom';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
 import Resume from './components/resume/Resume';
-import Certificates from './components/certificates/Certificates';
 
 function App() {
   return(
@@ -18,7 +17,6 @@ function App() {
         <Features />
         <Projects />
         <Resume />
-        <Certificates />
         <Contact />
         <Footer />
         <FooterBottom />
