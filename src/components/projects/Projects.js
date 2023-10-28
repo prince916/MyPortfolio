@@ -37,7 +37,7 @@ const Projects = () => {
         <ProjectsCard
           title="FACE DETECTION BRAIN"
           des="This App detects faces in any image or picture.
-          You can find it working if you paste any link of image and click detect then it app
+          You can find it working if you paste any link of image and click detect then this app
           will form a RECTANGLE BOX around the face according to its size."
           src={project2}
         />
