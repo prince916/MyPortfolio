@@ -1,4 +1,4 @@
-# This is my Portfolio App built using react.js, tailwindCSS and scroll toolkit
+# This is my Portfolio App built using react.js, tailwindCSS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
