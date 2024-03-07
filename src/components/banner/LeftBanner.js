@@ -45,11 +45,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-titleFont leading-6 tracking-wide">
-          I should be hired for this role because of my relevant skills,
-          experience, and passion for the industry. I’ve researched the company
-          and can add value to its growth. My positive attitude, work ethics,
-          and long-term goals align with the job requirements, making me a
-          committed and valuable asset to the company.
+          Motivated individual interested in experiencing different technologies
+          in software field with a passion for problem-solving.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -63,7 +60,7 @@ const LeftBanner = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover:-y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://www.facebook.com/login/" target='_blank'>
+              <a href="https://www.facebook.com/login/" target="_blank">
                 <FaFacebookF />
               </a>
             </span>
@@ -72,21 +69,33 @@ const LeftBanner = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://twitter.com/Prince_Kumar_19" target='_blank'><FaTwitter /></a>
+              <a href="https://twitter.com/Prince_Kumar_19" target="_blank">
+                <FaTwitter />
+              </a>
             </span>
             <span
               className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/" target='_blank'><FaLinkedin /></a>
+              <a
+                href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
             </span>
             <span
               className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw" target='_blank'><FaYoutube /></a>
+              <a
+                href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw"
+                target="_blank"
+              >
+                <FaYoutube />
+              </a>
             </span>
           </div>
         </div>
