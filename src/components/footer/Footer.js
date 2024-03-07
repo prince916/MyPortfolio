@@ -1,12 +1,12 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { logo } from "../../assets/index";
+import { itzme } from "../../assets/index";
 
 const Footer = () => {
   return (
     <div className="w-full font-titleFont py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        <img className="w-32 rounded-full" src={itzme} alt="logo" />
         <div className="flex gap-4 pt-4">
           <span
             className="w-12 h-12 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex

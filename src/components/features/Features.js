@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile,FaGlobe,FaBars } from "react-icons/fa";
+import { FaMobile,FaGlobe,FaBars, FaCodiepie, FaCode } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from '../Card';
@@ -11,9 +11,9 @@ const Features = () => {
       <Title title="Features" des="What I Do"/>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
         <Card 
-          title="Business Strategy"
+          title="Competitive Coding"
           des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
-          icon={<FaBars />}
+          icon={<FaCode />}
         />
         <Card 
           title="Web Development"
@@ -21,7 +21,7 @@ const Features = () => {
           icon={<AiFillAppstore />}
         />
         <Card 
-          title="SEO Optimization"
+          title="Problem Solving"
           des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
           icon={<SiProgress />}
         />
