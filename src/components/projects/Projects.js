@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title'
-import { Myself, SnakeGame, project2, project3 } from "../../assets/index";
+import { Myself, SnakeGame, project2, project3, music, social, Ecommerce, face } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -20,13 +20,13 @@ const Projects = () => {
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={Myself}
+          src={social}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus quidem!"
-          src={Myself}
+          src={Ecommerce}
         />
         <ProjectsCard
           title="Chatting App"
@@ -39,13 +39,13 @@ const Projects = () => {
           des="This App detects faces in any image or picture.
           You can find it working if you paste any link of image and click detect then this app
           will form a RECTANGLE BOX around the face according to its size."
-          src={project2}
+          src={face}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Music App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={Myself}
+          src={music}
         />
         <ProjectsCard
           title="SnakeGame"

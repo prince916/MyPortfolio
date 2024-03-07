@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-import { logo } from "../../assets/index";
+import { itzme } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="pl-2 lgl:pl-0">
         <img
           className="w-[75px] h-[75px] rounded-full border-[1px] border-[#545252]"
-          src={logo}
+          src={itzme}
           alt="logo"
         />
       </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
               <div className="">
                 <img
                   className="w-[75px] h-[75px] rounded-full border-[1px] border-[#545252] "
-                  src={logo}
+                  src={itzme}
                   alt="logo"
                 />
                 <p className="text-sm text-gray-400 mt-2">
