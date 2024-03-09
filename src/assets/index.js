@@ -7,7 +7,7 @@ import Ecommerce from "./images/projects/Ecommerce.jpeg";
 import Mypic2 from "./images/testimonial/Mypic2.png";
 import Mypic3 from "./images/testimonial/Mypic3.png";
 import Myself from "./images/testimonial/Myself.png";
-import ContactMe from "./images/contact/ContactMe.jpg";
+import pjs1 from "./images/contact/pjs1.jpeg";
 import project2 from "./images/projects/project2.png";
 import project3 from "./images/projects/project3.png";
 import itzme from "./images/testimonial/itzme.png";
@@ -19,7 +19,7 @@ export {
     Myself,
     Mypic2,
     Mypic3,
-    ContactMe,
+    pjs1,
     project2,
     project3,
     itzme,

@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactMe } from "../../assets/index";
+import { pjs1 } from "../../assets/index";
 import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const ContactLeft = () => {
@@ -9,8 +9,8 @@ const ContactLeft = () => {
             flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne"
     >
       <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
-        src={ContactMe}
+        className="w-full h-64 object-fill rounded-lg mb-2"
+        src={pjs1}
         alt="ContactMe"
       />
       <div className="flex flex-col gap-3">
