@@ -1,48 +1,51 @@
-import React from 'react'
+import React from "react";
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile,FaGlobe,FaBars, FaCodiepie, FaCode } from "react-icons/fa";
+import { FaMobile, FaGlobe, FaCode } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
-import Title from '../layouts/Title';
-import Card from '../Card';
+import Title from "../layouts/Title";
+import Card from "../Card";
 
 const Features = () => {
   return (
-    <section id='features' className='w-full py-20 border-b-[1px] border-b-black'>
-      <Title title="Features" des="What I Do"/>
-      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
-        <Card 
+    <section
+      id="features"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
+      <Title title="Features" des="What I Do" />
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
+        <Card
           title="Competitive Coding"
-          des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
+          des="I am deeply passionate about competitive coding, finding joy in solving complex algorithmic problems and constantly honing my skills."
           icon={<FaCode />}
         />
-        <Card 
+        <Card
           title="Web Development"
-          des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
+          des="I am passionate about web development, driven by the endless possibilities it offers to create engaging and user-friendly experiences on the internet."
           icon={<AiFillAppstore />}
         />
-        <Card 
+        <Card
           title="Problem Solving"
-          des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
+          des="I have a strong passion for solving problems and see every challenge as a chance to improve. I'm always looking for new challenges to sharpen my problem-solving abilities."
           icon={<SiProgress />}
         />
-        <Card 
+        <Card
           title="Mobile Development"
-          des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
+          des="I am currently immersed in learning app development as a key component of my portfolio. My goal is to expand my skill set and showcase my ability to create user-friendly mobile applications."
           icon={<FaMobile />}
         />
-        <Card 
+        <Card
           title="UX Design"
-          des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
+          des="I am deeply passionate about UX design, driven by the desire to create meaningful and intuitive user experiences."
           icon={<SiAntdesign />}
         />
-        <Card 
+        <Card
           title="Hosting Websites"
-          des="I should be hired for this role because of my relevant skills, experience, and passion for the industry. I’ve researched the company and can add value to its growth."
+          des="I am passionate about hosting, driven by the opportunity to create memorable and seamless experiences for guests.."
           icon={<FaGlobe />}
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;
