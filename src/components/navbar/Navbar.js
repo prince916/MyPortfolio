@@ -6,6 +6,8 @@ import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { itzme } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
+// new message
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
