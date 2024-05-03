@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -54,15 +54,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_xkv64w4', 'template_jt9d9er', form.current, 'dFr9-HmzJtUTOZH8T')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
+  emailjs.sendForm('service_uuv8p5e', 'template_u6bqir7', form.current, 'dFr9-HmzJtUTOZH8T')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
     };
-
 
   return (
     <section
