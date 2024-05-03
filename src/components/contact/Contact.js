@@ -19,7 +19,8 @@ const Contact = () => {
       .toLocaleLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
-  // ========== Email Validation end here ================
+  // ========== Email Validation end here =================
+  
 
   const handleSend = (e) => {
     e.preventDefault();
