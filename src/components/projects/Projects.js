@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title'
-import { Myself, SnakeGame, project2, project3, music, social, Ecommerce, face } from "../../assets/index";
+import { SnakeGame, project3, music, social, Ecommerce, face } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {

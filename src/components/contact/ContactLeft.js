@@ -42,7 +42,7 @@ const ContactLeft = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover:-y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://www.facebook.com/login/" target='_blank'>
+              <a href="https://www.facebook.com/login/" target='_blank' rel="noreferrer noopener">
                 <FaFacebookF />
               </a>
             </span>
@@ -51,21 +51,21 @@ const ContactLeft = () => {
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://twitter.com/Prince_Kumar_19" target='_blank'><FaTwitter /></a>
+              <a href="https://twitter.com/Prince_Kumar_19" target='_blank' rel="noreferrer noopener"><FaTwitter /></a>
             </span>
             <span
               className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/" target='_blank'><FaLinkedin /></a>
+              <a href="https://www.linkedin.com/in/prince-kumar-sharma-873549202/" target='_blank' rel="noreferrer noopener"><FaLinkedin /></a>
             </span>
             <span
               className="w-14 h-14 bg-black bg-opacity-25 text-grey-200 text-xl inline-flex
                       items-center justify-center rounded-md shadow-shadowOne hover:
                       hover: --y-translate1 transition-all hover:text-designColor cursor-pointer duration-300"
             >
-              <a href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw" target='_blank'><FaYoutube /></a>
+              <a href="https://www.youtube.com/channel/UCDdP4xGWU70ptnd8tMD5-bw" target='_blank' rel="noreferrer noopener"><FaYoutube /></a>
             </span>
           </div>
       </div>
